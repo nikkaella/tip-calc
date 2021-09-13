@@ -20,35 +20,39 @@
 
 <body>
   <main class="container-sm">
-
     <div class="d-flex justify-content-center">
       <h1>SPLITTER</h1>
     </div>
 
-    <div class="container-sm main">
-      <div>
-        <h2>Bill</h2>
-      </div>
+    <div class="row container-sm main">
+      <div class="col">
+        <div class="col">
+          <form class="row-cols-1">
+            <label class="col">Bill</label>
+            <input class="col bill" type="text">
+          </form>
+        </div>
 
-      <div>
-        <h2>Select Tip %</h2>
-        <div class="row row-cols-2">
-          <button class="col btn btn-primary" type="button">5%</button>
-          <button class="col btn btn-primary" type="button">10%</button>
-          <button class="col btn btn-primary" type="button">15%</button>
-          <button class="col btn btn-primary" type="button">25%</button>
-          <button class="col btn btn-primary" type="button">50%</button>
-          <button class="col btn btn-primary" type="button">Custom</button>
+        <div class="col">
+          <h2>Select Tip %</h2>
+          <div class="row m-auto row-cols-2">
+            <button class="col btn btn-primary" type="button">5%</button>
+            <button class="col btn btn-primary" type="button">10%</button>
+            <button class="col btn btn-primary" type="button">15%</button>
+            <button class="col btn btn-primary" type="button">25%</button>
+            <button class="col btn btn-primary" type="button">50%</button>
+            <button class="col btn btn-primary" type="button">Custom</button>
+          </div>
+        </div>
+        <div class="col">
+          <form class="row-cols-1">
+            <label for="">Number of People</label>
+            <input class="numOfPeople" type="text">
+          </form>
         </div>
       </div>
-      <div>
-        <form action="">
-          <label for="">Number of People</label>
-          <input class="numOfPeople" type="text">
-        </form>
-      </div>
 
-      <div>
+      <div class="col">
         Tip Amount
         / person
 
