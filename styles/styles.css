@@ -5,3 +5,18 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+body {
+  background-color: hsl(185, 41%, 84%);
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+.main {
+  background-color: white;
+  border-radius: 25px;
+}
