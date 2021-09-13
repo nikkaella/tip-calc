@@ -20,3 +20,8 @@ h2 {
   background-color: white;
   border-radius: 25px;
 }
+
+.numOfPeople {
+  background: url(../images/icon-person.svg) no-repeat scroll 7px 7px;
+  padding-left: 30px;
+}
