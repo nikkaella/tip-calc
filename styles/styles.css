@@ -2,6 +2,7 @@ body {
   background-color: hsl(185, 41%, 84%);
   font-family: "Space Mono", monospace;
   font-weight: 400;
+  size: 100%;
 }
 
 h2 {
