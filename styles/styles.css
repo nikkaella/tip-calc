@@ -5,12 +5,16 @@ body {
   size: 100%;
 }
 
-h2 {
-  font-size: 1rem;
+button {
+    font-size: 2rem;
 }
 
 input {
   direction: rtl;
+}
+
+label {
+    font-size: 0.8rem;
 }
 
 .main {
@@ -26,6 +30,11 @@ input {
 .bill {
   background: url(../images/icon-dollar.svg) no-repeat scroll 7px 7px;
   padding-left: 30px;
+}
+
+.tip-total {
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 25px;
 }
 
 .attribution {
