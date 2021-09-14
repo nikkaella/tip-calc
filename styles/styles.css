@@ -6,15 +6,23 @@ body {
 }
 
 button {
-    font-size: 2rem;
+  font-size: 2rem;
+  border-radius: 20px;
+  border: none;
 }
 
-input {
+input[type="text"] {
+  padding: 7px;
   direction: rtl;
+  border: none;
+  background-color: hsl(189, 41%, 97%);
 }
 
 label {
-    font-size: 0.8rem;
+  font-size: 1rem;
+  color: hsl(184, 14%, 56%);
+  font-weight: 700;
+  margin-bottom: 5px;
 }
 
 .main {
@@ -33,8 +41,8 @@ label {
 }
 
 .tip-total {
-    background-color: hsl(183, 100%, 15%);
-    border-radius: 25px;
+  background-color: hsl(183, 100%, 15%);
+  border-radius: 25px;
 }
 
 .attribution {

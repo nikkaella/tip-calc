@@ -24,42 +24,46 @@
       <h1>SPLITTER</h1>
     </div>
 
-    <div class="row container-sm main p-3">
-      <div class="col-sm-6">
-        <div class="row">
-          <form class="row-cols-1">
-            <label class="col">Bill</label>
-            <input class="col bill" type="text">
-          </form>
-        </div>
+    <div class="container-sm main p-3">
+      <div class="row">
 
-        <div class="col">
-          <label>Select Tip %</label>
-          <div class="row m-auto row-cols-2">
-            <button class="col btn btn-primary" type="button">5%</button>
-            <button class="col btn btn-primary" type="button">10%</button>
-            <button class="col btn btn-primary" type="button">15%</button>
-            <button class="col btn btn-primary" type="button">25%</button>
-            <button class="col btn btn-primary" type="button">50%</button>
-            <button class="col btn btn-primary" type="button">Custom</button>
+
+        <div class="col-sm-6">
+          <div class="row">
+            <form class="row-cols-1">
+              <label class="col">Bill</label>
+              <input class="col bill" type="text">
+            </form>
+          </div>
+
+          <div class="col my-3">
+            <label>Select Tip %</label>
+            <div class="row m-auto row-cols-2">
+              <button class="col btn btn-primary" type="button">5%</button>
+              <button class="col btn btn-primary" type="button">10%</button>
+              <button class="col btn btn-primary" type="button">15%</button>
+              <button class="col btn btn-primary" type="button">25%</button>
+              <button class="col btn btn-primary" type="button">50%</button>
+              <button class="col btn btn-primary" type="button">Custom</button>
+            </div>
+          </div>
+          <div class="col">
+            <form class="row-cols-1">
+              <label for="">Number of People</label>
+              <input class="numOfPeople" type="text">
+            </form>
           </div>
         </div>
-        <div class="col">
-          <form class="row-cols-1">
-            <label for="">Number of People</label>
-            <input class="numOfPeople" type="text">
-          </form>
+
+        <div class="col-sm-6 tip-total p-3">
+          Tip Amount
+          / person
+
+          Total
+          / person
+
+          Reset
         </div>
-      </div>
-
-      <div class="col-sm-6 tip-total p-3">
-        Tip Amount
-        / person
-
-        Total
-        / person
-
-        Reset
       </div>
     </div>
   </main>
