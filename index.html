@@ -24,11 +24,11 @@
       <h1>SPLITTER</h1>
     </div>
 
-    <div class="container-sm main p-3">
+    <div class="container-sm main">
       <div class="row">
 
 
-        <div class="col-sm-6">
+        <div class="col-sm-6 p-3">
           <div class="row">
             <form class="row-cols-1">
               <label class="col">Bill</label>
@@ -39,12 +39,12 @@
           <div class="col my-3">
             <label>Select Tip %</label>
             <div class="row m-auto row-cols-2">
-              <button class="col btn btn-primary" type="button">5%</button>
-              <button class="col btn btn-primary" type="button">10%</button>
-              <button class="col btn btn-primary" type="button">15%</button>
-              <button class="col btn btn-primary" type="button">25%</button>
-              <button class="col btn btn-primary" type="button">50%</button>
-              <button class="col btn btn-primary" type="button">Custom</button>
+              <button class="col-sm-4" type="button">5%</button>
+              <button class="col-sm-4" type="button">10%</button>
+              <button class="col-sm-4" type="button">15%</button>
+              <button class="col-sm-4" type="button">25%</button>
+              <button class="col-sm-4" type="button">50%</button>
+              <button class="col-sm-4 custom" type="button">Custom</button>
             </div>
           </div>
           <div class="col">
@@ -55,16 +55,27 @@
           </div>
         </div>
 
-        <div class="col-sm-6 tip-total p-3">
-          Tip Amount
-          / person
+        <div class="col-sm-6 tip-total">
+          <div class="row">
+            <div class="col">
+              <h2>Tip Amount</h2>
+              <p>/ person</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <h2>Total</h2>
+              <p>/ person</p>
+            </div>
+          </div>
 
-          Total
-          / person
-
-          Reset
+          <div class="row">
+            <button class="col btn btn-primary" type="button">RESET</button>
+          </div>
         </div>
+
       </div>
+    </div>
     </div>
   </main>
 

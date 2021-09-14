@@ -6,9 +6,19 @@ body {
 }
 
 button {
-  font-size: 2rem;
-  border-radius: 20px;
-  border: none;
+  font-size: 100%;
+  color: hsl(189, 41%, 97%);
+  font-weight: 600;
+  border-radius: 10px;
+  border: solid 4px white;
+  padding: 8px;
+  background-color: hsl(183, 100%, 15%);
+}
+
+.custom {
+    background-color: hsl(189, 41%, 97%);
+    color: hsl(184, 14%, 56%);
+
 }
 
 input[type="text"] {
@@ -28,6 +38,7 @@ label {
 .main {
   background-color: white;
   border-radius: 25px;
+  padding: 25px;
 }
 
 .numOfPeople {
@@ -42,7 +53,21 @@ label {
 
 .tip-total {
   background-color: hsl(183, 100%, 15%);
-  border-radius: 25px;
+  border-radius: 15px;
+  padding: 2rem;
+}
+
+h2 {
+  color: hsl(189, 41%, 97%);
+  font-size: 1rem;
+  margin: 1rem 0 0;
+
+}
+
+p {
+  color: hsl(184, 14%, 56%);
+  font-size: 0.8rem;
+  margin: 0;
 }
 
 .attribution {
@@ -52,3 +77,9 @@ label {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media only screen and (min-width: 540px){
+    .main {
+        width: 50vw;
+    }
+} 
