@@ -1,8 +1,14 @@
+.title {
+    color: hsl(183, 100%, 15%);
+    font-size: medium;
+}
+
 body {
   background-color: hsl(185, 41%, 84%);
   font-family: "Space Mono", monospace;
   font-weight: 400;
   size: 100%;
+  
 }
 
 button {
@@ -16,9 +22,8 @@ button {
 }
 
 .custom {
-    background-color: hsl(189, 41%, 97%);
-    color: hsl(184, 14%, 56%);
-
+  background-color: hsl(189, 41%, 97%);
+  color: hsl(184, 14%, 56%);
 }
 
 input[type="text"] {
@@ -57,17 +62,26 @@ label {
   padding: 2rem;
 }
 
+h1 {
+  color: hsl(172, 67%, 45%);
+}
+
 h2 {
   color: hsl(189, 41%, 97%);
-  font-size: 1rem;
+  font-size: 0.9rem;
   margin: 1rem 0 0;
-
 }
 
 p {
   color: hsl(184, 14%, 56%);
   font-size: 0.8rem;
   margin: 0;
+}
+
+.reset {
+  background-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+  border: none;
 }
 
 .attribution {
@@ -78,8 +92,8 @@ p {
   color: hsl(228, 45%, 44%);
 }
 
-@media only screen and (min-width: 540px){
-    .main {
-        width: 50vw;
-    }
-} 
+@media only screen and (min-width: 540px) {
+  .main {
+    width: 50vw;
+  }
+}
