@@ -1,6 +1,8 @@
 .title {
     color: hsl(183, 100%, 15%);
     font-size: medium;
+    font-weight: 700;
+    padding: 10vh;
 }
 
 body {
@@ -31,6 +33,9 @@ input[type="text"] {
   direction: rtl;
   border: none;
   background-color: hsl(189, 41%, 97%);
+  font-size: 24px;
+  font-weight: 700;
+  color: hsl(183, 100%, 15%);
 }
 
 label {
@@ -47,12 +52,12 @@ label {
 }
 
 .numOfPeople {
-  background: url(../images/icon-person.svg) no-repeat scroll 7px 7px;
+  background: url(../images/icon-person.svg) no-repeat scroll 15px 15px;
   padding-left: 30px;
 }
 
 .bill {
-  background: url(../images/icon-dollar.svg) no-repeat scroll 7px 7px;
+  background: url(../images/icon-dollar.svg) no-repeat scroll 15px 15px;
   padding-left: 30px;
 }
 
