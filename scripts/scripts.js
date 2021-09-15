@@ -1,1 +1,3 @@
-alert('hello')
+$('.butt, .custom').on('click', function(){
+    $(this).toggleClass('clicked');
+})

@@ -1,8 +1,8 @@
 .title {
-    color: hsl(183, 100%, 15%);
-    font-size: medium;
-    font-weight: 700;
-    padding: 10vh;
+  color: hsl(183, 100%, 15%);
+  font-size: medium;
+  font-weight: 700;
+  padding: 10vh;
 }
 
 body {
@@ -10,7 +10,6 @@ body {
   font-family: "Space Mono", monospace;
   font-weight: 400;
   size: 100%;
-  
 }
 
 button {
@@ -21,6 +20,11 @@ button {
   border: solid 4px white;
   padding: 8px;
   background-color: hsl(183, 100%, 15%);
+}
+
+.clicked {
+  background-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
 }
 
 .custom {
