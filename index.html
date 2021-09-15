@@ -30,7 +30,7 @@
         <div class="col-sm-6 p-3">
           <form>
             <label class="col">Bill</label>
-            <input id="bill" class="col bill" type="text">
+            <input id="bill" class="col bill" type="text" required>
           </form>
 
           <div class="my-3">
@@ -41,13 +41,16 @@
               <button class="col-sm-4 butt" type="button">15%</button>
               <button class="col-sm-4 butt" type="button">25%</button>
               <button class="col-sm-4 butt" type="button">50%</button>
-              <button class="col-sm-4 custom" type="button">Custom</button>
+              <input id="custom" class="col-sm-4" placeholder="Custom">
             </div>
           </div>
 
           <form>
-            <label for="numOfPeople">Number of People</label>
-            <input name="numOfPeople" class="numOfPeople" type="text">
+            <label class="form-label" for="numOfPeople">Number of People</label>
+            <input id="numOfPeople" name="numOfPeople" class="numOfPeople form-control" type="text" required>
+            <div class="invalid-feedback">
+              can't be zero
+            </div>
           </form>
         </div>
 
@@ -76,7 +79,7 @@
             </div>
 
             <div class="">
-              <button class="reset" type="button">RESET</button>
+              <button id="reset" class="reset" type="button">RESET</button>
             </div>
           </div>
 

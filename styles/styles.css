@@ -27,9 +27,13 @@ button {
   color: hsl(183, 100%, 15%);
 }
 
-.custom {
+#custom {
+  border: none;
   background-color: hsl(189, 41%, 97%);
   color: hsl(184, 14%, 56%);
+  border-radius: 10px;
+  border: solid 4px white;
+  direction: rtl;
 }
 
 input[type="text"] {
