@@ -2,7 +2,7 @@
   color: hsl(183, 100%, 15%);
   font-size: medium;
   font-weight: 700;
-  padding: 10vh;
+  padding: 2vh;
 }
 
 body {
@@ -115,5 +115,9 @@ p {
 @media only screen and (min-width: 540px) {
   .main {
     width: 50vw;
+  }
+
+  .title {
+    padding: 10vh;
   }
 }
