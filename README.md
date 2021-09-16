@@ -34,6 +34,8 @@ Users should be able to:
 
 ## My process
 
+I started with organizing the HTML file, then css, then js!
+
 ### Built with
 
 - Semantic HTML5 markup
