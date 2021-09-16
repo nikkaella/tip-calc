@@ -10,12 +10,12 @@ var numPeople;
 
 $(document).ready(clearInput);
 
-$(document).on('keyup keypress', 'form input[type="text"]', function(e) {
-    if(e.keyCode == 13) {
-      e.preventDefault();
-      return false;
+$(document).on('keyup keypress', 'form input[type="text"]', function (e) {
+    if (e.keyCode == 13) {
+        e.preventDefault();
+        return false;
     }
-  });
+});
 
 $('#bill').change(function () {
     bills = parseInt(bill.val());
@@ -30,15 +30,19 @@ $('.butt').on('click', function () {
 
 });
 
-$('#custom').change(function () {
+$('#custom').on('click', function(){
+    $('.butt').removeClass('clicked');
+    percent = 0;
+})
 
+$('#custom').change(function () {
     customTip = parseInt(custom.val());
     percent = customTip * 0.01;
 })
 
 $('#numOfPeople').change(function () {
     numPeople = parseInt(numOfPeople.val());
-    
+
     var tip = (bills * percent) / numPeople;
     var totes = (bills / numPeople) + tip;
     tipAmt.text('$' + tip.toFixed(2));
