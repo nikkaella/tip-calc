@@ -48,7 +48,7 @@ I started with organizing the HTML file, then css, then js!
 
 ### Continued development
 
-I'd like to continue focusing on javascript and jquery. Additionally, the application of bootstrap and flex can also use some more work.
+I'd like to continue focusing on javascript and jquery. Additionally, the application of bootstrap and flex can also use some more work. I'd like to also continue working on form validation and accessibility.
 
 ## Author
 
