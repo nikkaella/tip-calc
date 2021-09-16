@@ -28,7 +28,7 @@ $('#numOfPeople').change(function () {
 
     tipAmt = (bill + (bill * percent)) / numOfPeople;
     alert(tipAmt);
-    // tipAmt.text(tipAmt);
+    tipAmt.text(tipAmt);
 });
 
 $('#reset').on('click', clearInput);
