@@ -98,11 +98,12 @@ p {
   margin: 0;
 }
 
-.reset {
+#reset {
   background-color: hsl(172, 67%, 45%);
   color: hsl(183, 100%, 15%);
   border: none;
   width: 100%;
+  margin-top: 5vh;
 }
 
 .attribution {
@@ -120,5 +121,9 @@ p {
 
   .title {
     padding: 10vh;
+  }
+
+  #reset {
+    margin-top: 15vh;
   }
 }
