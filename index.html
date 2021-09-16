@@ -23,14 +23,15 @@
     <div class="d-flex justify-content-center">
       <h1 class="title">S P L I <br /> T T E R</h1>
     </div>
+
     <div class="container-sm main">
       <div class="row">
 
         <!-- First column -->
         <div class="col-sm-6 p-3">
-          <form>
-            <label class="col">Bill</label>
-            <input id="bill" class="col bill" type="text" required>
+          <form class="needs-validation" novalidate>
+            <label class="col form-label" for="bill">Bill</label>
+            <input id="bill" class="col bill form-control" type="text" name="bill" required>
           </form>
 
           <div class="my-3">
@@ -48,9 +49,6 @@
           <form class="needs-validation" novalidate>
             <label class="form-label" for="numOfPeople">Number of People</label>
             <input id="numOfPeople" name="numOfPeople" class="numOfPeople form-control" type="text" required>
-            <div class="invalid-feedback">
-              can't be zero
-            </div>
           </form>
         </div>
 
@@ -78,7 +76,7 @@
               </div>
             </div>
 
-            <div class="">
+            <div class="justify-content-end">
               <button id="reset" class="reset" type="button">RESET</button>
             </div>
           </div>

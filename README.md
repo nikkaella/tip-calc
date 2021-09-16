@@ -40,7 +40,6 @@ Users should be able to:
 - CSS custom properties
 - Flexbox 
 - Bootstrap
-- CSS Grid
 - Mobile-first workflow
 - JavaScript
 - JQuery
