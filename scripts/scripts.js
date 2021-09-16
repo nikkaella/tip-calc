@@ -4,11 +4,12 @@ var tipAmt = $('#tip-amt');
 var total = $('#total');
 var custom = $('#custom');
 var percent;
-
+var bills;
+var numPeople;
 $(document).ready(clearInput);
 
 $('#bill').change(function () {
-    bill = parseInt(bill.val());
+    bills = parseInt(bill.val());
 });
 
 $('.butt').on('click', function () {
@@ -18,26 +19,30 @@ $('.butt').on('click', function () {
     // if there is already a button that is clicked, then remove previous one
 });
 
-$('#custom').on('click', function() {
+$('#custom').on('click', function () {
     custom.val('');
+    percent = parseInt(custom.val(''));
+    console.log(percent);
 })
 
 $('#numOfPeople').change(function () {
     // alert(numOfPeople + bill);
-    numOfPeople = parseInt(numOfPeople.val());
-
-    tipAmt = (bill + (bill * percent)) / numOfPeople;
-    alert(tipAmt);
-    tipAmt.text(tipAmt);
+    numPeople = parseInt(numOfPeople.val());
+    
+    var tip = (bills * percent) / numPeople;
+    var totes = (bills / numPeople) + tip;
+    tipAmt.text('$' + tip);
+    total.text('$' + totes);
 });
 
 $('#reset').on('click', clearInput);
 
-
 function clearInput() {
+
     //clear all inputs
     bill.val('');
     numOfPeople.val('');
     tipAmt.text('$0.00');
     total.text('$0.00');
+    $('.butt').removeClass('clicked');
 }
