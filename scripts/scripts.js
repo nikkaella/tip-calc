@@ -17,7 +17,7 @@ $(document).on('keyup keypress', 'form input[type="text"]', function (e) {
     }
 });
 
-$('#bill').change(function () {
+$('#bill').on('input', function () {
     bills = parseInt(bill.val());
 });
 
@@ -35,12 +35,12 @@ $('#custom').on('click', function(){
     percent = 0;
 })
 
-$('#custom').change(function () {
+$('#custom').on('input', function () {
     customTip = parseInt(custom.val());
     percent = customTip * 0.01;
 })
 
-$('#numOfPeople').change(function () {
+$('#numOfPeople').on('input', function () {
     numPeople = parseInt(numOfPeople.val());
 
     var tip = (bills * percent) / numPeople;
